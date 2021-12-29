@@ -24,9 +24,4 @@ public class Script {
             e.printStackTrace();
         }
     }
-
-    public static void main(String args[]){
-        Script script = new Script();
-        script.runScript("sh /root/Desktop/script.sh");
-    }
 }
